@@ -1,7 +1,6 @@
 # QA Audit Report — Cynbit Technologies Website
 
-**Auditor / Candidate:** Aditya Raj
-
+**Auditor / Candidate:** Aditya Raj  
 **Target Application:** [Cynbit Technologies](https://www.cynbit.in/) (`https://cynbit.in` / `https://www.cynbit.in`)  
 
 ---
