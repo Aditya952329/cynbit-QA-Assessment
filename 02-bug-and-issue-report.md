@@ -1,6 +1,6 @@
 # Bug & Issue Report — Cynbit Technologies Website
-**Auditor / Candidate:** Aditya Raj 
-**Target Application:** Cynbit Technologies (`https://www.cynbit.in/`)  
+**Auditor / Candidate:** Aditya Raj
+**Target Application:** Cynbit Technologies (`https://www.cynbit.in/`) 
 **Scope:** Functional, Responsiveness, UI/UX, Content, and Workflow Testing  
 **Total Issues Logged:** 11 (9 Confirmed Defects + 2 Quality / Content Flags)  
 
