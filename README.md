@@ -4,7 +4,7 @@
 **Company:** [Cynbit Technologies](https://www.cynbit.in/)  
 **Candidate Name:** Aditya Raj  
 **Assessment Task:** Phase 2 Technical Role Assessment — Cynbit Website Quality Audit  
-**Submission Date:** October 2026  
+**Submission Date:** 28 October, 2026  
 
 ---
 
@@ -17,13 +17,13 @@ The audit was conducted to analyze the platform from the perspective of an end-u
 
 ## 📂 Assessment Deliverables
 
-All required deliverables have been structured into dedicated reports inside the [`reports/`](reports/) directory:
+All required deliverables have been structured into dedicated reports inside this.
 
 | Deliverable | Document Link | Description & Key Contents |
 | :--- | :--- | :--- |
-| **Deliverable 1** | [**QA Audit Report**](reports/01-qa-audit-report.md) | Comprehensive report detailing the testing scope, exploratory and scenario-based methodology, test environment matrix (desktop, tablet, mobile viewports), observed outcomes, and risk limitations. |
-| **Deliverable 2** | [**Bug & Issue Report**](reports/02-bug-and-issue-report.md) | Structured bug tracking document detailing **9 confirmed functional & usability defects** and **2 visual/copy flags**, complete with reproduction steps, expected vs. actual behavior, severity/priority, and acceptance criteria. |
-| **Deliverable 3** | [**Improvement Recommendations**](reports/03-improvement-recommendations.md) | Prioritized engineering action plan (P1 immediate blockers to P3 polish), security/infrastructure recommendations (CSP, X-Frame-Options, sitemap cleanup), and an automated end-to-end regression testing blueprint. |
+| **Deliverable 1** | [**QA Audit Report**](/01-qa-audit-report.md) | Comprehensive report detailing the testing scope, exploratory and scenario-based methodology, test environment matrix (desktop, tablet, mobile viewports), observed outcomes, and risk limitations. |
+| **Deliverable 2** | [**Bug & Issue Report**](/02-bug-and-issue-report.md) | Structured bug tracking document detailing **9 confirmed functional & usability defects** and **2 visual/copy flags**, complete with reproduction steps, expected vs. actual behavior, severity/priority, and acceptance criteria. |
+| **Deliverable 3** | [**Improvement Recommendations**](/03-improvement-recommendations.md) | Prioritized engineering action plan (P1 immediate blockers to P3 polish), security/infrastructure recommendations (CSP, X-Frame-Options, sitemap cleanup), and an automated end-to-end regression testing blueprint. |
 
 ---
 
@@ -58,7 +58,7 @@ Testing was performed across multiple viewports and form factors to simulate rea
 - **Desktop Form Factor:** 1920×1080 (FHD) & 1440×900 (Chrome / Chromium Core on Windows x64).
 - **Tablet Form Factor:** 768×1024 (iPad Portrait & Landscape viewports).
 - **Mobile Form Factor:** 375×812 (iPhone SE), 390×844 (iPhone 12/13/14), and 360×640 (Android small screen).
-- **Network Profiles:** Unthrottled High-Speed Fiber & Emulated Fast 4G.
+- **Network Profiles:** Unthrottled High-Speed Fiber & Emulated Fast 5G.
 
 ---
 
@@ -67,12 +67,10 @@ Testing was performed across multiple viewports and form factors to simulate rea
 ```
 cynbit-qa-assessment/
 │
-├── README.md                                  # Repository overview and summary
-│
-└── reports/
-    ├── 01-qa-audit-report.md                  # Deliverable 1: Methodology, scope & matrix
-    ├── 02-bug-and-issue-report.md             # Deliverable 2: Structured bug logs (B01-B09, I01-I02)
-    └── 03-improvement-recommendations.md      # Deliverable 3: Prioritized dev fixes & test suite
+├── README.md                              # Repository overview and summary
+├── 01-qa-audit-report.md                  # Deliverable 1: Methodology, scope & matrix
+├── 02-bug-and-issue-report.md             # Deliverable 2: Structured bug logs (B01-B09, I01-I02)
+└── 03-improvement-recommendations.md      # Deliverable 3: Prioritized dev fixes & test suite
 ```
 
 ---
